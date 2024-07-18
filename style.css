@@ -1,0 +1,87 @@
+/* Réinitialisation des styles pour tout le corps */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Couleur de fond pour tout le corps */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Hauteur minimale de la vue */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em; /* Ajustement de l'espacement interne */
+    display: flex;
+    justify-content: space-between; /* Aligner les éléments de manière égale sur la ligne */
+    align-items: center; /* Centrer verticalement les éléments */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; /* Taille réduite pour l'image du logo */
+    width: auto; /* Maintient le ratio de l'image */
+    margin-right: 1em;
+}
+
+nav {
+    margin-left: 1em; /* Marge à gauche pour l'équilibre */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em; /* Espacement autour des liens */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+    border-radius: 4px; /* Coins arrondis au survol */
+}
+
+main {
+    flex: 1; /* Le contenu principal prendra tout l'espace disponible */
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff; /* Couleur de fond pour chaque section */
+    border-radius: 8px; /* Ajout de coins arrondis pour un meilleur design */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour un effet de profondeur */
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0; /* Fixe le footer en bas de la fenêtre */
+}
