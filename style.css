@@ -28,7 +28,7 @@ header {
 }
 
 .logo {
-    height: 50px; /* Taille réduite pour l'image du logo */
+    height: 200px; /* Taille réduite pour l'image du logo */
     width: auto; /* Maintient le ratio de l'image */
     margin-right: 1em;
 }
